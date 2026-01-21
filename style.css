@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-color: #EFE9E3;
+}
+
+p{
+    color: #574964;
+}
+
+.baris{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.gambar{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.teks{
+    flex: 1;
+}
+
+.terbalik{
+    flex-direction: row-reverse;
+}
